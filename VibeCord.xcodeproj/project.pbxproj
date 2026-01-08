@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A489B13D2F101330000BC1D6 /* README.MD in Resources */ = {isa = PBXBuildFile; fileRef = A489B13B2F101326000BC1D6 /* README.MD */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A4D12F452F08243E00E89DFA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A489B13B2F101326000BC1D6 /* README.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
 		A4D12F352F08243C00E89DFA /* VibeCord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VibeCord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D12F442F08243E00E89DFA /* VibeCordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VibeCordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D12F4E2F08243E00E89DFA /* VibeCordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VibeCordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +84,7 @@
 				A4D12F472F08243E00E89DFA /* VibeCordTests */,
 				A4D12F512F08243E00E89DFA /* VibeCordUITests */,
 				A4D12F362F08243C00E89DFA /* Products */,
+				A489B13B2F101326000BC1D6 /* README.MD */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A489B13D2F101330000BC1D6 /* README.MD in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
